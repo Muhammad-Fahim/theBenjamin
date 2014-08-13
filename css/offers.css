@@ -1,0 +1,200 @@
+@CHARSET "UTF-8";
+
+.offer-list-wrapper{
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 10px;
+	right: 0px;
+	bottom: 0px;
+	overflow: auto;
+	text-align: center;
+}
+
+.offer-list{
+	display: inline-block;
+	width: auto;
+}
+
+.offer-list-item{
+	display: block;
+	position: relative;
+	width: 347px;
+	height: 429px;
+	float: left;
+	margin: 10px;
+	background: #fff;
+	-webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.25);
+	box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.25);
+	color: #4f504f !important;
+}
+/*
+.offer-list-item * {
+	color: #4f504f !important;
+}
+*/
+
+.offer-list-item-image{
+	width: 347px;
+	height: 195px; 
+}
+
+.offer-list-item-content{
+	height: 175px;
+	overflow: auto;	
+	padding: 10px;
+	text-align: left;
+	color: #4f504f !important;
+}
+
+.offer-list-item-title{
+	font-size: 20px; 
+	text-transform: uppercase;
+	color: #4f504f !important;
+}
+
+.offer-list-item-text{
+	padding-top: 10px;
+	color: #4f504f !important;
+}
+.offer-list-item-text p {
+	padding-bottom: 10px;	
+	line-height: 18px;
+	color: #4f504f !important;
+}
+/*
+ul.offer-bullets {
+	padding: 0px 10px 0px 15px;
+}
+ul.offer-bullets li::before {
+	content: "- ";
+}
+*/
+
+.offer-list-item-more, .offer-list-item-reserve{
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 10px;
+	height: auto;
+	width: auto;
+	text-transform: uppercase;
+}
+
+.offer-list-item-more{
+	left: 10px;
+	color: #4f504f !important;
+	padding: 3px 5px 3px 5px;
+}
+
+.offer-list-item-reserve {
+	right: 10px;
+	padding: 3px 5px 3px 5px;
+}
+a.offer-list-item-reserve {
+	color: #fff;
+	background-color: #4b6b80 !important;	
+}
+
+.offer-list-item a:hover {
+	background-color: #666 !important;
+	color: #fff !important;
+}
+
+.offer-signup-wrapper{
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: auto;
+	background: #fff;
+}
+
+.offer-signup-image{
+	position: relative;	
+	height: 105px;
+}
+
+.offer-signup-form{	
+	padding-bottom: 10px;	
+}
+
+.page-uid-special_offers .subnavigation-wrapper{
+	bottom: 250px;
+	overflow: auto;
+}
+
+.offer-signup-form .mailing-form-wrapper {
+	max-width: 261px;
+	width: 100% !important;
+}
+
+.offer-signup-form .mailing-form-field-wrapper{
+	width: 100px;
+	float: left;
+	margin-left: 20px;
+}
+
+.offer-signup-form .mailing-form-submit{
+	margin-top: 20px;
+	clear: both;
+}
+
+.offer-signup-form .mailing-form-field-border{
+	border: none;
+	background: #7e7d7f;
+}
+
+.offer-signup-form .mailing-form-field-title{
+	color: #4f504f !important;	
+}
+
+
+.offer-signup-form .mailing-form-submit input{
+	width: 150px;
+	background: #4b6b80 url(../images/arrow-right-11x11.png) 130px center no-repeat;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	height: 26px;
+	padding: 0;
+	line-height: 26px;
+	padding-left: 20px;	
+	padding-right: 20px;
+	font-size: 18px !important;
+}
+
+.offer-signup-form .mailing-form-submit input:HOVER {
+	color: #4f504f;
+}
+
+.offer-signup-form-title{
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 10px;
+	color: #4f504f
+}
+.special-reserve {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	line-height: 31px !important;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.special-reserve a {
+	display: inline-block;
+	background: #4b6b80;
+	color: #fff !important;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.special-reserve a:hover{
+	/*color: #f7b62f;*/
+	color: #fff !important;
+	background-color: #999;
+}

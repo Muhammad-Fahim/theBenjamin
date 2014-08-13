@@ -1,0 +1,265 @@
+@CHARSET "UTF-8";
+
+li.page-uid-reserve a{
+	background: #4b6b80;
+}
+
+li.page-uid-reserve a:hover{
+	background: #4b6b80;
+}
+
+.reservations-box-wrapper .row-wrapper{
+	padding-left: 35px;
+	padding-top: 20px;
+	position: relative;	
+}
+
+.reservations-box-wrapper .date-pick{
+	height: 21px;
+	width: 140px;
+	padding 0px;
+	border: none;
+	background: #fff;
+	text-align: center;
+}
+
+.reservations-box-wrapper .people-number{
+	height: 21px;
+	width: 26px;
+	padding: 0;
+	border: none;
+	background: #fff;
+	text-align: center;
+}
+
+.reservations-box-wrapper .cap{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 21px;
+	line-height: 21px;	
+	font-size: 10px;
+}
+
+.reservations-box-wrapper .cap, .reservations-box-wrapper .cap *{
+	color: #fff;
+	text-transform: uppercase;
+} 
+
+.reservations-box-wrapper .cap-options{
+	position: absolute;
+	z-index: 1;
+	top: 14px;
+	right: 0px;
+	width: 70px;	
+	line-height: 1;
+	text-align: left;
+}
+
+.reservations-box-wrapper .datepick-trigger{
+	vertical-align: top;
+	margin-left: 13px;
+}
+
+
+.reservations-button {	
+	z-index: 1;
+	width: 236px;
+	height: 31px;
+	line-height: 31px !important;
+	background: #4d2811;
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-align: center;
+	margin-right: 10px !important;
+}
+
+.reservations-button:HOVER{
+	color: #f7b62f;
+}
+
+.reservations-box-wrapper {
+	/*position: fixed;*/
+	position: absolute;
+	z-index: 10;
+	right: 0px;
+	top: 55px;
+	width: 240px;
+	height: auto;
+	background: #4b6b80;
+	display: none;	
+	font-family: arial, helvetica, sans-serif;
+}
+
+
+
+.reservations-box-inner-1 {
+	position: absolute;
+	z-index: 1;
+	left: 10px;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	overflow: hidden;
+}
+
+.reservations-box-image {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 48px;
+	width: 196px;
+	height: auto;
+}
+
+.reservations-box-content {
+	padding: 10px;
+	font-size: 13px;
+	position: absolute;
+	z-index: 1;
+	left: 207px;
+	right: 0px;
+	top: 36px;
+	bottom: 40px;
+	overflow: auto;
+}
+
+.reservations-box-text{
+	font-weight: normal;
+	font-size: 10px;
+	color: #fff;
+	padding: 10px 0px 5px 35px;
+	text-transform: uppercase;
+}
+
+.reservations-box-text *{
+	color: #fff;
+}
+
+.reservations-box-title {
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 5px solid #000;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: normal;
+	overflow: hidden;
+	font-size: 23px;
+}
+
+.reservations-box-text {
+	margin-top: 5px;
+}
+
+.reservations-box-wrapper #submit1 {
+	display: block;
+	width: 173px;
+	margin: 0 auto;
+	background: #3a3a3a !important;
+	text-align: center;
+	text-transform: uppercase;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 14px;
+}
+
+.reservations-box-wrapper #submit1:HOVER{
+	color: #666 !important;
+}
+
+
+.reservations-box-wrapper select {
+	background: none !important;	
+	border: none;
+}
+
+.reservations-box-wrapper table {
+	width: 200px;
+	margin: 0 auto;
+	background: #000 url(../img/reservations-box-bg1.jpg) repeat-x;
+}
+
+.reservations-box-wrapper table td {	
+	text-align: left;
+	padding-left: 5px !important;
+}
+
+.reservations-box-wrapper table * {
+	line-height: 1;
+	color: #0caaa4;
+}
+
+.reservations-box-wrapper #startDate {
+	border: none;
+	height: inherit;
+	padding-left: 4px;
+	padding-right: 4px;
+	background: none !important;
+}
+
+.reservations-box-wrapper table .cap {
+	font-size: 13px;
+}
+
+.reservations-box-wrapper table .cap-submit a,.reservations-box-wrapper table .cap-submit a:link
+	{
+	font-size: 18px;
+}
+
+.reservations-box-close-btn {
+	background: url(../img/bottom-bg.png?3);
+	cursor: pointer;
+}
+
+.reservations-box-close-btn,.reservations-box-close-btn ul {
+	position: absolute;
+	z-index: 1;
+	width: 22px;
+	right: -25px;
+	top: 0px;
+	bottom: 0px;
+}
+
+.reservations-box-close-btn ul {
+	left: 0;
+	right: 0;
+	top: 0px;
+	bottom: 0px;
+}
+
+.reservations-box-close-btn ul li {
+	text-align: center;
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 17px;
+}
+
+.reservations-box-wrapper table td input, .reservations-box-wrapper table td select{
+	width: 100px !important;
+} 
+
+
+.reservations-box-wrapper table tr.sep td{
+	padding-top: 0;
+	padding-bottom: 0;
+	
+}
+.reservations-box-wrapper table tr.sep td div{
+	height: 2px;
+	background: #1f403e;  
+}
+
+.x-close-box {
+	float: right; 
+	padding-right: 30px;
+	position: relative;
+	bottom: 17px;
+	height: 14px;
+	width: 14px;
+}
+
+/**/
+

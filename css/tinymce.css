@@ -1,0 +1,79 @@
+.tinymce html, .tinymce address,
+ .tinymce blockquote,
+ .tinymce body,  .tinymce dd,  .tinymce div,
+ .tinymce dl,  .tinymce dt, .tinymce  fieldset,  .tinymce form,
+ .tinymce frame,  .tinymce frameset,
+ .tinymce h1, .tinymce  h2,  .tinymce h3,  .tinymce h4,
+ .tinymce h5, .tinymce  h6, .tinymce  noframes,
+ .tinymce ol, .tinymce  p, .tinymce  ul,  .tinymce center,
+ .tinymce dir, .tinymce  hr,  .tinymce menu,  .tinymce pre   { display: block; unicode-bidi: embed }
+ .tinymce li              { display: list-item }
+ .tinymce head            { display: none }
+ .tinymce table           { display: table }
+ .tinymce tr              { display: table-row }
+ .tinymce thead           { display: table-header-group }
+ .tinymce tbody           { display: table-row-group }
+ .tinymce tfoot           { display: table-footer-group }
+ .tinymce col             { display: table-column }
+ .tinymce colgroup        { display: table-column-group }
+ .tinymce td, th          { display: table-cell }
+ .tinymce caption         { display: table-caption }
+ .tinymce th              { font-weight: bolder; text-align: center }
+ .tinymce caption         { text-align: center }
+ .tinymce body            { margin: 8px }
+ .tinymce h1              { font-size: 2em; margin: .67em 0 }
+ .tinymce h2              { font-size: 1.5em; margin: .75em 0 }
+ .tinymce h3              { font-size: 1.17em; margin: .83em 0 }
+ .tinymce h4,  .tinymce p,
+ .tinymce blockquote,  .tinymce ul,
+ .tinymce fieldset,  .tinymce form,
+ .tinymce ol,  .tinymce dl,  .tinymce dir,
+ .tinymce menu            { margin: 1.12em 0 }
+ .tinymce h5              { font-size: .83em; margin: 1.5em 0 }
+ .tinymce h6              { font-size: .75em; margin: 1.67em 0 }
+ .tinymce h1,  .tinymce h2,  .tinymce h3,  .tinymce h4,
+ .tinymce h5,  .tinymce h6,  .tinymce b,
+ .tinymce strong          { font-weight: bolder }
+ .tinymce blockquote      { margin-left: 40px; margin-right: 40px }
+ .tinymce i,  .tinymce cite,  .tinymce em,
+ .tinymce var,  .tinymce address    { font-style: italic }
+ .tinymce pre,  .tinymce tt,  .tinymce code,
+ .tinymce kbd,  .tinymce samp       { font-family: monospace }
+ .tinymce pre             { white-space: pre }
+ .tinymce button,  .tinymce textarea,
+ .tinymce input,  .tinymce select   { display: inline-block }
+ .tinymce big             { font-size: 1.17em }
+ .tinymce small,  .tinymce sub,  .tinymce sup { font-size: .83em }
+ .tinymce sub             { vertical-align: sub }
+ .tinymce sup             { vertical-align: super }
+ .tinymce table           { border-spacing: 2px; }
+ .tinymce thead,  .tinymce tbody,
+ .tinymce tfoot           { vertical-align: middle }
+ .tinymce td,  .tinymce th,  .tinymce tr      { vertical-align: inherit }
+ .tinymce s,  .tinymce strike,  .tinymce del  { text-decoration: line-through }
+ .tinymce hr              { border: 1px inset }
+ .tinymce ol,  .tinymce ul,  .tinymce dir,
+ .tinymce menu,  .tinymce dd        { margin-left: 40px }
+ .tinymce ol, .tinymce ol li        { list-style-type: decimal }
+ .tinymce ul, .tinymce ul li        { list-style-type: disc; }
+ .tinymce ol ul,  .tinymce ul ol,
+ .tinymce ul ul,  .tinymce ol ol    { margin-top: 0; margin-bottom: 0 }
+ .tinymce u,  .tinymce ins          { text-decoration: underline }
+ .tinymce br:before       { content: "\A"; white-space: pre-line }
+ .tinymce center          { text-align: center }
+ .tinymce :link,  .tinymce :visited { text-decoration: underline }
+ .tinymce :focus          { outline: thin dotted invert }
+
+/* Begin bidirectionality settings (do not change) */
+ .tinymce BDO[DIR="ltr"]  { direction: ltr; unicode-bidi: bidi-override }
+ .tinymce BDO[DIR="rtl"]  { direction: rtl; unicode-bidi: bidi-override }
+
+ .tinymce *[DIR="ltr"]    { direction: ltr; unicode-bidi: embed }
+ .tinymce *[DIR="rtl"]    { direction: rtl; unicode-bidi: embed }
+
+@media print {
+   .tinymce h1            { page-break-before: always }
+   .tinymce h1,  .tinymce h2,  .tinymce h3,
+   .tinymce h4,  .tinymce h5,  .tinymce h6    { page-break-after: avoid }
+   .tinymce ul,  .tinymce ol,  .tinymce dl    { page-break-before: avoid }
+}

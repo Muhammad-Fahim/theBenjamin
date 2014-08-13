@@ -1,0 +1,145 @@
+.leftnav {
+  position: absolute;
+  margin: 0;
+  border: 0;
+  z-index: 500;
+  overflow: visible;
+}
+.leftnav ul,
+.leftnav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.leftnav ul {
+  position: relative;
+  z-index: 597;
+  float: left;
+}
+.leftnav ul li {
+  float: left;
+  min-height: 1px;
+  line-height: 1.5em;
+  vertical-align: middle;
+}
+.leftnav ul li.hover,
+.leftnav ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+.leftnav ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 598;
+  width: 100%;
+}
+.leftnav ul ul li {
+  float: none;
+}
+.leftnav ul ul,
+.leftnav ul ul ul {
+  top: 0px;
+  left: 99%;
+}
+.leftnav ul li:hover > ul {
+  visibility: visible;
+}
+.leftnav ul li {
+  float: none;
+}
+.leftnav a {
+  display: block;
+}
+/* Custom CSS Styles */
+.leftnav {
+  font-size: 17px;
+  padding: 10px 0px 0px 10px;
+}
+.leftnav span {
+  color: #fff;
+ }
+.leftnav:after,
+.leftnav ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.leftnav ul {
+ /* background: #F0EFEA;
+  border: 1px solid #aaaaaa;
+  padding: 4px;
+  width: 200px;*/
+}
+.leftnav ul li {
+  
+  position: relative;
+}
+.leftnav ul li.hover,
+.leftnav ul li:hover {
+ /* background: #61b72d;
+  background: -moz-linear-gradient(#61b72d 0%, #4b8e23 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #61b72d), color-stop(100%, #4b8e23));
+  background: -webkit-linear-gradient(#61b72d 0%, #4b8e23 100%);
+  background: linear-gradient(#61b72d 0%, #4b8e23 100*/
+}
+.leftnav ul li.hover > a,
+.leftnav ul li:hover > a {
+  background: #666;
+}
+.leftnav ul ul {
+  width: 150px;
+  font-size: 14px;
+  top: 3px;
+  background-color: #333;
+}
+
+.leftnav ul ul li.hover > a,
+.leftnav ul ul li:hover > a {
+  text-decoration: underline !important;
+  background: none;
+  color: #fff !important;
+}
+
+.leftnav a {
+  border: 1px solid transparent;
+  padding: 3px 10px;
+}
+.leftnav a:link,
+.leftnav a:visited {
+  
+  text-decoration: none;
+}
+.leftnav a:hover {
+/*ugly greeen bg
+  background: #61b72d;
+  background: -moz-linear-gradient(#61b72d 0%, #4b8e23 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #61b72d), color-stop(100%, #4b8e23));
+  background: -webkit-linear-gradient(#61b72d 0%, #4b8e23 100%);
+  background: linear-gradient(#61b72d 0%, #4b8e23 100%);*/
+}
+.leftnav a:active {
+  color: #fff;
+}
+.leftnav .has-sub:hover > a:after,
+.leftnav .has-sub.hover > a:after {
+ /* border-color: transparent transparent transparent #FFF; */
+}
+.leftnav .has-sub > a:after {
+  content: '';
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 4px 0 4px 4px;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  margin-top: -4px;
+  -webkit-transform: rotate(360deg); 
+}
+.leftnav .selected {
+  border: 1px solid #fff;
+}

@@ -1,0 +1,175 @@
+@CHARSET "UTF-8";
+
+.room-list-wrapper {
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: #333;
+	height: 100%;
+}
+
+.room-list {
+	position: absolute;
+	z-index: 1;
+	left: 4px;
+	top: 0px;
+	right: 4px;
+	bottom: 4px;
+}
+.room-list ul {
+	
+}
+
+.room-list-item {
+	float: left;
+	height: 50%;
+	width: 33.3333333333333%;
+	position: relative;
+	
+}
+
+.room-list-item-inner {
+	position: absolute;
+	z-index: 1;
+	left: 4px;
+	top: 4px;
+	right: 4px;
+	bottom: 4px;
+	overflow: hidden;
+	
+}
+
+.room-list-item-image {
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 38px;
+}
+
+.room-list-item-title {
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	height: 38px;
+	overflow: hidden;
+	background: #a6a7a6;
+}
+
+.room-list-item-title div {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.room-list-item-title a {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+.room-list-item-overlay {
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	background: url(../img/overlay-bg.png);
+	display: none;
+}
+
+.room-list-item-info {
+	position: relative;
+	z-index: 1;
+	/*left: 20px;
+	top: 20px;
+	right: 20px;
+	bottom: 48px;*/
+	padding-top: 1.5em;
+	padding-left: 1.250em;
+	overflow: auto;
+}
+
+.room-list-item-info,.room-list-item-info * {
+	color: #fff;
+}
+
+.room-list-item-info li {
+	list-style-image: url(../img/arrow-right-11x11.png);
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.room-list-item-more {
+	float: right;
+}
+
+.room-page-item-reserve {
+	position: relative;
+	padding-bottom: 10px;
+	/*padding-top: 2%;*/
+	line-height: 31px !important;
+	text-align: right;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+.room-list-item-reserve {
+	/*position: absolute;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+	height: 31px;
+	line-height: 31px !important;
+	text-align: center;
+	overflow: hidden;*/
+	position: relative;
+	padding-bottom: 10px;
+	padding-top: 2%;
+	line-height: 31px !important;
+	text-align: center;
+}
+
+.room-list-item-reserve a, .room-page-item-reserve a {
+	display: inline-block;
+	background: #4b6b80;
+	color: #fff !important;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.room-list-item-reserve a:hover, .room-page-item-reserve a:hover  {
+	/*color: #f7b62f;*/
+	color: #fff !important;
+	background-color: #999;
+}
+
+.page-uid-rooms .subnavigation-wrapper {
+	/*bottom: 60%;*/
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.content-wrapper-rooms {
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	top: 55px;
+	bottom: 55px;
+	overflow: auto;
+	background: #333;		
+}

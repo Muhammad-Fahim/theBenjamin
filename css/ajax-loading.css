@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+.ajax-loading{display: none; background: transparent; position: absolute; top:0; left:0; z-index:100; overflow: hidden; width: 100%; height: 100%;}
+        
+.ajax-loading-overlay, .ajax-loading-background, .ajax-loading-animation{overflow: hidden;}
+
+.ajax-loading-overlay{width: 100%; height: 100%; }
+        
+.ajax-loading-overlay{
+        background:url(../img/overlay.png) 0 0 repeat;
+}
+
+.ajax-loading-background{
+		background: url(../img/loading_background.png) center center no-repeat;		
+        position: absolute;
+        z-index: 101;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 40px;
+}
+
+.ajax-loading-animation{
+        background: url(../img/loading.gif) center center no-repeat;
+        position: absolute;
+        z-index: 102;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 40px;
+}

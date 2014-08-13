@@ -1,0 +1,524 @@
+.btn-navbar {
+	display: none;
+	position: absolute;
+	right: 5px;
+	top: 48px;
+	padding: 7px;
+	margin-right: 5px;
+	margin-left: 5px;
+	color: #fff;
+	/*border-radius: 5px;*/
+	cursor: pointer;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #D7CB98;
+	background-color: #757575;
+	border-color: #e5e5e5 #e5e5e5 #bfbfbf;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2f2f2', endColorstr='#ffe5e5e5', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+	z-index: 20;
+}
+
+.btn-navbar .icon-bar {
+	display: block;
+	width: 18px;
+	height: 2px;
+	margin: 2px;
+	background-color: #757575;
+	background-color: #FFF;
+}
+
+.unfolded {
+	z-index: 9999;
+	display: block !important;
+}
+
+.top-navigation-ul li br{
+	display: none !important;
+}
+.bottom-navigation-ul li br{
+	display: none;
+}
+
+@media screen and (min-width:1401px) {
+	.ddsmoothmenu ul li a{
+		font-size: 16px !important;
+	}
+}
+
+@media screen and (max-width:1400px) {
+	.ddsmoothmenu ul li a{
+		font-size: 15px !important;
+	}
+	.page-uid-reserve a{
+		padding-right: 30px !important;
+		padding-left: 20px !important;
+	}
+	#top-navigation{
+		left: 180px;
+	}
+	.bottom-address {
+		font-size: 12px;	
+	}
+	/*
+	.logo img {
+		height: 95%;
+		width: 95%;
+	}
+	*/
+}
+
+@media screen and (max-width:1350px) {
+	.page-content-left {
+		left: 10px;
+		min-width: 228px;
+		height: 100%;
+		min-height: 100%;
+	}
+	.page-content-right {
+		left: 260px;
+	}
+}
+
+@media screen and (max-width:1200px) {
+	
+	.ddsmoothmenu ul li a{
+		font-size: 14px !important;
+	}
+	
+	/*.bt-copy{ width: 28%; }*/
+	/*.bt-address{ width: 42%; }*/
+	/*.bt-socials{ width: 30%; }*/
+	.offer-list-item { float:none; display: block; }
+	
+	.amenities-list {
+		width: 90%;	
+	}
+	.amenities-list div.column-left { float:none; }
+	.amenities-list div.column-right { float:none; margin-left: 0px; padding-left: 0px; }
+}
+@media screen and (max-width:1120px) {
+	.ddsmoothmenu ul li a{
+		font-size: 13px !important;
+	}
+}
+@media screen and (max-width:1030px) {
+	.subnavigation li a, 
+	.subnavigation li a:LINK{
+		font-size: 15px;
+	}
+	.promo-box-wrapper-regular-page{
+		top: 45%;
+		
+	}
+}
+@media screen and (max-width:1030px) {
+	.ddsmoothmenu ul li a{
+		font-size: 12px !important;
+	}
+}
+@media screen and (max-width:960px) {
+	.ddsmoothmenu ul li a{
+		font-size: 12px !important;
+		pading-top: 0px;
+		padding-bottom: 0px;
+	}
+	.ddsmoothmenu ul li ul li {
+		top: -8px;
+		left: 2px;
+		
+	}
+	.ddsmoothmenu ul li ul li a, .ddsmoothmenu ul li ul li a:link, .ddsmoothmenu ul li ul li a:visited {
+		font-size: 12px !important;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.page-uid-reserve a{
+		padding-right: 20px !important;
+		padding-left: 10px !important;
+	}
+	.room-list-item-info{
+		left: 5px;
+		top: -30px;
+		right: 35px;
+		bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.room-list-item-info>ul{
+		margin-left: 0;
+	}
+	.room-list-item-info li{
+		font-size: 12px;
+	}
+	.room-list-item-reserve a{
+		font-size: 14px;
+		padding-top: 0px;
+		position: relative;
+		top: -40px;
+	}
+	.logo{
+		left: 8px;
+		top: 8px;
+	}
+	.logo img{
+		width: 170px;
+	}
+	.page-uid-reserve a{
+		padding-right: 20px !important;
+		padding-left: 10px !important;
+	}
+	#top-navigation {
+		top: auto;
+		left: 0px;
+		right: 0px;
+		width: auto;
+		text-align: right;
+		height: 28px;
+		line-height: 28px;
+		bottom: 0;
+	}
+	.room-list-item-reserve {
+		bottom: 5px;
+		height: 25px;
+		line-height: 25px !important;
+		font-size: 12px;
+	}
+}
+@media screen and (max-width:850px) {
+	.bottom-navigation-ul li br{
+		display: block;
+	}
+	
+	.room-list-item-info{
+		/*left: 10px;
+		top: 10px;
+		right: 10px;
+		bottom: 30px;*/
+	}
+	
+	.room-list-item-info>ul{
+		margin-left: 0;
+	}
+	.room-list-item-info li{
+		font-size: 13px;
+	}
+	.room-list-item-reserve a{
+		font-size: 12px;
+	}
+	
+}
+
+
+@media screen and (max-width:1200px) and (-webkit-min-device-pixel-ratio:0) {
+     /* Safari-specific styles here. */
+	 ::i-block-chrome, ul.offer-list:first-child { position: relative; top: -18px;}
+}
+
+@media screen and (max-height:800px) {
+	.page-uid-home .eb-slide-show-title-wrapper-770{
+		position: absolute;
+		height: 38% !important;
+		top: 50% !important;
+		bottom: auto !important;
+	}
+	.page-uid-home .eb-slide-show-title-wrapper-770 .eb-slide-show-title{
+		left: 0;
+		bottom: 0px;
+		height: 90%;
+	}
+	
+}
+
+
+@media screen and (max-width:1070px) {
+	/*.bt-copy{ width: 26%; }
+	.bt-address{ width: 44%; }
+	.bt-socials{ width: 30%; }*/
+	/*.denihan-logo { left: 95px; }*/
+	.bottom-address{ font-size: 12px; }
+	.lang-select{ margin-right: 10px !important; }
+}
+@media screen and (max-width:930px) {
+	.bt-copy{ width: 30%; }
+	/*.bt-address{ width: 41%; }*/
+	bt-socials{ width: 27%; }
+	.denihan-logo { left: 0px; }
+	
+	.bottom-address{
+		padding-top: 10px;
+	}
+	
+	.social{
+		height: auto;
+		text-align: center;
+	}
+	.social img{
+		height: 25px;
+		width: 25px;
+		position: relative;
+		bottom: 10px;
+	}
+	.social li{
+		height: 20px;
+		line-height: 20px;
+		float:none !important;
+		display: inline-block;
+	}
+	
+	.lang-select{
+		margin-right: 5px !important;
+	}
+
+	.sep{
+		display: inline-block;
+		width: 100%;
+		height: 1px  !important;
+		line-height: 1px  !important;
+		margin: 0  !important;
+		padding: 0  !important;
+	}
+	.copyright {
+	position: relative;
+	text-align: center;
+	padding-left: 40px;
+	}
+	
+	
+	.bottom-wrapper{
+		height: 75px;
+	}
+	.content-wrapper {
+		bottom:75px;
+	}
+	
+}
+@media screen and (max-width:890px) {
+	.bottom-wrapper {height: 80px; }
+	.bt-copy{ width: 30%; }
+	.bt-address{ width: 41%; }
+	.bt-socials{ width: 28%; }
+	/*.disk{
+		display: block;
+		font-size: 0;
+	}*/
+	
+	.bottom-address{
+		padding-top: 5px;
+	}
+	
+	.social{
+		height: auto;
+		text-align: center;
+	}
+	.social img{
+		height: 25px;
+		width: 25px;
+	}
+	.social li{
+		height: 20px;
+		line-height: 20px;
+		float:none !important;
+		display: inline-block;
+	}
+	.copyright { padding-left: 20px;}
+	.lang-select{
+		margin-right: 5px !important;
+	}
+	.sep{
+		display: inline-block;
+		width: 100%;
+		height: 1px  !important;
+		line-height: 1px  !important;
+		margin: 0  !important;
+		padding: 0  !important;
+	}
+	.content-wrapper{
+		overflow: auto;
+	}
+	.has-navigation .page-content-wrapper,
+	.page-content-wrapper{
+		width: 100%;
+	}
+	.page-uid-rooms .subnavigation-wrapper,
+	.subnavigation-wrapper{
+		bottom: auto;
+		position: relative;
+	}
+	.offer-signup-wrapper,
+	.promo-box-wrapper-regular-page{
+		bottom: auto;
+		top: auto;
+		height: 110px;
+		position: relative;
+	}
+	
+	.offer-signup-form{
+		background-color: #fff;
+	}
+	.promo-box-wrapper-regular-page .promo-box-content{
+		position: relative;
+		height: auto;
+		margin-bottom: 28px;
+	}
+	.page-content-image{
+		height: 300px !important;
+	}
+	.page-text{
+		top: 365px !important;
+		/*margin-top: 10px;*/
+		position: relative;
+		height: auto;
+		bottom: auto;
+	}
+	.page-text-no-thumbs{
+		top: 300px !important;
+		/*margin-top: 300px;*/
+		position: relative;
+		height: auto;
+		bottom: auto;
+	}
+	
+	.page-content-right .page-content-inner{
+		/*bottom: auto;*/
+	}
+	.page-content-right{
+		overflow: visible;
+	}
+	.promo-box-wrapper-regular-page .eb-slide-show-html{
+		position: relative;
+		margin-right: 20px;
+	}
+	.promo-box-wrapper-regular-page .eb-slide-show-html-wrapper{
+		position: relative;
+		margin-top: 110px;
+		overflow:visible;
+		/*height: auto;*/
+		height: 305px;
+		/*padding-bottom: 12px;*/
+	}
+	.page-content-left,
+	.page-content-left .page-content-inner{
+		overflow: visible;
+		height: 100%;
+		min-height: 100%;
+		padding-bottom: 20px;
+	}
+	.promo-box-content {
+		position: relative;
+		/*padding-bottom: 130px;*/
+	}
+	.promo-box-wrapper-regular-page .promo-box-more, 
+	.promo-box-wrapper-regular-page .promo-box-reserve{
+		position: relative;
+		text-align: center;
+	}
+	
+	.offer-signup-form .mailing-form-submit input {
+		width: 92%;
+		background: #4B6B80 url(../images/arrow-right-11x11.png) 137px center no-repeat;
+		border: none;
+		color: #FFF;
+		text-transform: uppercase;
+		height: 26px;
+		padding: 0;
+		line-height: 26px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 18px !important;
+		margin: 0 auto;
+	}
+	
+	
+	.page-uid-rooms .subnavigation-wrapper, 
+	.subnavigation-wrapper{
+		position: static;
+		margin-left: 15px;
+	}
+	
+	.offer-signup-form .mailing-form-submit input{
+		background-position: 80% 50% !important;
+	}
+	.offer-list-item{
+		height: 380px;
+	}
+	.offer-list-item-text{
+		overflow: hidden;
+		font-size: 13px;
+	}
+	.subnavigation li a, 
+	.subnavigation li a:LINK{
+		font-size: 14px;
+	}
+	.subnavigation li.selected{
+		background-position: 90% 50%;
+	}
+	
+	.eb-slide-show-dots { 
+		width: 220px;
+		padding-top: 10px;
+	}
+	.eb-slide-show-dots img { 
+		height: 31px;
+		width: 194px;
+	}
+	.eb-slide-show-dots title { 
+		height: 31px;
+	}
+	.slideshow-thumbs {
+		top: 37%;
+		padding-top: 6px;
+	}
+	.contact-form input, .contact-form select {
+		width: 150px;	
+	}
+	#map-canvas {
+		height: 400px;
+		width: 420px;	
+	}
+	.column-right  { 
+		padding: 0px 5px 10px 5px;
+		margin-left: 10px;
+}
+
+
+
+@media screen and (max-width:1000px) {
+	.page-uid-home .eb-slide-show-title-wrapper-770{
+		position: absolute;
+		left: 33% !important;
+		right: 33% !important;
+		width: auto;
+		height: 310px !important;
+		margin-left: 0 !important;
+	}
+	.page-uid-home .eb-slide-show-title-wrapper-770 .eb-slide-show-title{
+		left: 0; 
+		bottom: 0px;
+		width: 90%;
+	}
+}
+
+
+@media (min-width:769px) and (max-width:1024px){
+	.promo-box-wrapper-regular-page .promo-box-more, 
+	.promo-box-wrapper-regular-page .promo-box-reserve{
+		bottom: 100px;
+	}
+	.ddsmoothmenu ul li a {
+	font-size: 12px !important;
+	}	
+	.promo-box-wrapper-regular-page .promo-box-more, 
+	.promo-box-wrapper-regular-page .promo-box-reserve{
+		position: relative;
+		text-align: center;
+		padding-top: 10px;
+	}
+}
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+	.subnavigation li a,.subnavigation li a:LINK {
+		font-size: 12px;
+	}
+}

@@ -1,0 +1,102 @@
+/*mailing_form*/
+
+@CHARSET "UTF-8";
+
+.mailing-form-wrapper{
+	margin: 0 auto;
+}
+
+.mailing-form-field-border{
+	border: 1px solid black;
+	padding: 0;
+	width: 100%;
+}
+
+.mailing-form-field-type-checkbox_confirm .mailing-form-field{
+	float: left;
+}
+
+.mailing-form textarea{
+	height: 80px;
+}
+
+.mailing-form-group{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-top: 3px solid #fd051b;
+}
+
+.mailing-form-group-first-item{
+	border: none;
+}
+
+.mailing-form-group-title{
+	font-weight: bold;
+	padding-left: 20px;
+	text-transform: uppercase;	
+}
+
+.mailing-form-field-wrapper{
+	margin-top: 5px;
+}
+
+.mailing-form-field-title{
+	line-height: 1;
+	text-align: justify;
+}
+
+.mailing-form-submit{
+	padding: 10px;
+	text-align: center;
+}
+
+.mailing-form-submit input{
+	padding: 10px;
+	font-size: 18px;
+}
+
+.mailing-form-wrapper-printable{
+	background: #fff;
+	max-width: 700px;
+	padding: 20px;
+}
+
+.mailing-form-wrapper-printable .mailing-form-field{
+	border: 1px solid black;
+	padding: 5px;
+	min-height: 24px;	
+}
+
+.mailing-form-wrapper-printable .mailing-form-field-type-checkbox_confirm .mailing-form-field{
+	background: #f00;
+	font-weight: bold;
+	border: none;
+	margin: 4px;
+}
+
+.mailing-form-table{
+	empty-cells: show;
+	border-collapse: collapse;
+}
+
+.mailing-form-table td{
+	padding: 0 !important;
+	border: 1px solid #000;	
+}
+
+.mailing-form-table-head{
+	vertical-align: middle;
+	text-align: center;
+}
+
+.mailing-form-table-value .mailing-form-field-border{
+	border: none;
+	margin: 0;
+	width: 100%;
+}
+
+
+.mailing-form-wrapper-printable .mailing-form-table-value{
+	height: 24px;
+	padding: 5px !important;
+}

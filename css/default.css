@@ -1,0 +1,130 @@
+@CHARSET "UTF-8";
+
+/* Reset default browser CSS. */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;	
+}
+
+ol, ul {
+	list-style: none;
+}
+
+li {
+	list-style: none;
+}
+
+blockquote {
+	quotes: none;
+	padding: 10px;
+}
+
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img { border: none; margin: 0; padding: 0; }
+
+h1{
+	font-size: 20px;
+}
+
+
+input.error{background-color: #ff0000;}
+
+#messageStackContainer{
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+#messageStackContainer li{
+	padding: 5px;
+}
+
+ul.error, ul.warning {
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+	background-color: #ff0000;	
+}
+
+ul.error li, ul.warning li {
+	color: #000;
+	font-weight: bold;	
+}
+
+ul.message {
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+	background-color: #00FF00;	
+}
+
+ul.message li {
+	color: #000000;
+	font-weight: bold;
+}
+
+
+li.error, div.error {
+	margin: 0;
+	background-color: #ff0000;
+	color: #000;
+	font-weight: bold;
+}
+
+li.warning, div.warning {
+	background-color: #FF0000;: #000;
+	font-weight: normal;
+	color: #000000;
+	font-weight: bold
+}
+
+li.message, div.message {
+	background-color: #00FF00;
+	font-weight: normal;
+	color: #000000;
+	font-weight: bold
+}
+
+.required{color: #FF0000;font-weight: bold}
+
+
+.required{
+	color: #ff0000;
+}
+
+.cleared {
+	clear: both;
+}
+
+.hidden-param{
+	display: none;
+}

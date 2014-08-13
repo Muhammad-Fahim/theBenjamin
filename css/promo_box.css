@@ -1,0 +1,153 @@
+@CHARSET "UTF-8";
+
+.promo-box-wrapper{
+	position: absolute;
+	z-index: 10;		
+}
+
+.promo-box-wrapper-home{
+	position: absolute;
+	z-index: 10;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 298px;	
+}
+
+.promo-box-wrapper-home .promo-box-overlay{
+	display: block;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: auto;
+	background: url(../img/black-49.png);
+	padding: 20px;
+}
+
+.promo-box-wrapper-home .promo-box-title {
+	font-size: 20px;
+	text-align: center;	
+}
+h1.promo-box-title {
+	font-size: 20px !important;
+	text-align: center;	
+	padding: 10px 0px 10px 0px;
+}
+
+.promo-box-wrapper-home .promo-box-text{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.promo-box-wrapper-regular-page .promo-box-title{
+	font-size: 20px !important;		
+}
+
+.promo-box-wrapper-home .eb-slide-show-html-wrapper{
+	background: none;	
+}
+
+.page-uid-home .promo-box-wrapper *{
+	color: #fff;
+}
+
+.promo-box-wrapper-regular-page{
+	left: 0;
+	right: 0;
+	top: 39%;
+	bottom: 39%;
+}
+
+.promo-box-wrapper-regular-page .eb-slide-show-html-wrapper {
+	position: absolute;
+	z-index: 11;
+	left: 0px;
+	right: 0px;
+	/*bottom: auto;*/
+	/*bottom: 100%;*/
+	top: 100%;
+	height: 100%;
+	min-height: 100%;
+	background: #fff;
+	overflow: visible;
+	padding: 0;
+	padding-bottom: 150px;
+	
+}
+
+.promo-box-wrapper-regular-page .eb-slide-show-html {
+	position: absolute;
+	z-index: 1;
+	left: 15px;
+	right: 15px; 
+	bottom: 15px;
+	top: 15px;	
+	overflow: visible;	
+	/*border: 1px solid red;*/
+}
+
+.promo-box-wrapper-regular-page .eb-slide-show-html *{
+	color: #4f504f;
+}
+
+.promo-box-wrapper-regular-page .promo-box-content{
+	position: relative;
+	z-index: 1;
+	left: 0px;
+	right: 0;
+	top: 0;	 
+	/*bottom: 60px;*/
+	overflow: visible;	
+	
+}
+
+.promo-box-wrapper-regular-page .promo-box-more, .promo-box-wrapper-regular-page .promo-box-reserve{
+	/*display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 160px;*/
+	position: relative;
+	height: auto;
+	width: auto;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+
+.promo-box-wrapper-regular-page .promo-box-more{
+	left: 0;
+	float: left;
+}
+
+.promo-box-wrapper-regular-page .promo-box-reserve{
+	right: 0px;
+	float: right;
+}
+
+.promobox-text-only {
+	
+	position: absolute;
+	z-index: 11;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: auto;	
+	padding: 10px;
+	color: #fff;
+	font-size: 14px;	
+	
+	position: absolute;
+	z-index: 11;
+	left: 0px;
+	right: 0px;
+	/*bottom: auto;*/
+	/*bottom: 100%;*/
+	top: 100%;
+	height: 100%;
+	min-height: 100%;
+	background: #fff;
+	overflow: visible;
+	padding: 0;
+	padding-bottom: 150px;	
+}
