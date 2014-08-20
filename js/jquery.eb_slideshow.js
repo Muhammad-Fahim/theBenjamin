@@ -255,7 +255,7 @@
 					$("div", $(this)).each(function(i){
 						$(this).css({ 
 							backgroundPosition: l + "px " + (t - i + data.topFade) + "px", 
-							backgroundSize: w + "px " + h + "px",
+							backgroundSize: w + "px " + h + "px"
 						});
 					});
 				});
@@ -527,7 +527,7 @@
 							height: "1px",
 							overflow: "hidden",
 							background: "url("+img.image+") 0px "+(-i)+"px no-repeat",
-							backgroundSize: data.width +"px "+ data.height +"px",
+							backgroundSize: data.width +"px "+ data.height +"px"
 						}).appendTo( $topFade );
 						op += opStep; 
 					}

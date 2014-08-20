@@ -78,7 +78,16 @@ $(document).ready(function(){
 		return false;
 	});
 	if( $(".page-uid-home").length ){
-		$("li.page-uid-reserve a").trigger("click");
+	//first detect if on tablet/ipad and make booker closed if so*/
+		if(window.devicePixelRatio !== undefined) {
+			dpr = window.devicePixelRatio;
+		} else {
+			dpr = 1;
+		}
+		var screen_width = window.screen.width * dpr;
+		if (screen_width > 960) {
+			$("li.page-uid-reserve a").trigger("click"); //not on a tablet. Make booker open
+		}
 	}
 });
 
@@ -93,7 +102,7 @@ $(function() {
 			else if (direction == 'right'){
 				$(this).eb_slideshow('prev');
 			}
-		},
+		}
 	});
 });
 
@@ -303,9 +312,9 @@ function initialize() {
   });
 }
 
-google.maps.event.addDomListener(window, 'load', initialize);
 
 //datepicker for open table- The National
+/*
  var startDate = jQuery('#startDate').datepicker({ dateFormat: 'mm/dd/yy', constrainInput: true, minDate: 0 });
 	startDate.datepicker('setDate', new Date());
 	try {
@@ -319,6 +328,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 	} catch (e) {
 		if (typeof console != 'undefined' && typeof console.log != 'undefined') console.log('Unable to send OpenTable info to Omniture');
 }
+*/
       
 
 

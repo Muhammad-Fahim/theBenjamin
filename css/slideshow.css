@@ -10,6 +10,15 @@
 	height: 38px;		
 }
 
+.promobox-home .eb-slide-show-btn-prev{
+	left: 0;
+	background: url(../img/arrow-left.png) left center no-repeat;	
+	display: block;
+	left: 260px
+}
+.promobox-home .eb-slide-show-btn-prev{
+	display: block;
+}
 .eb-slide-show-btn-prev{
 	left: 0;
 	background: url(../img/arrow-left.png) left center no-repeat;	
@@ -31,11 +40,12 @@
 	bottom: 0px;
 	height: auto;
 	width: auto;
-	background: url(../img/black-49.png);	
+	/*background: url(../img/black-49.png);	*/
 	padding: 10px;
-	color: #fff;
-	font-size: 14px;
-	text-transform: uppercase;
+	/*color: #fff;*/
+	color: #000;
+	font-size: 16px;
+	/*text-transform: uppercase;*/
 	font-family: "futura-pt",sans-serif;
 }
 
@@ -46,10 +56,11 @@
 	right: 0px;
 	bottom: 0px;
 	height: auto;	
-	background: url(../img/black-49.png);	
+	/*background: url(../img/black-49.png);	*/
 	padding: 10px;
-	color: #fff;
-	font-size: 14px;	
+	/*color: #fff;*/
+	color: #000;
+	font-size: 16px;	
 }
 .eb-slide-show-html-wrapper-text-only {
 	position: absolute;

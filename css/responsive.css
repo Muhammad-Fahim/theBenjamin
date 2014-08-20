@@ -129,7 +129,9 @@
 	.ddsmoothmenu ul li ul li {
 		top: -8px;
 		left: 2px;
-		
+		height: 18px;
+		line-height: 24px;	
+		padding-bottom: 10px;
 	}
 	.ddsmoothmenu ul li ul li a, .ddsmoothmenu ul li ul li a:link, .ddsmoothmenu ul li ul li a:visited {
 		font-size: 12px !important;
@@ -166,9 +168,47 @@
 	.logo img{
 		width: 170px;
 	}
+	.ben-monogram { 
+		width: 160px;
+		padding: 25px 0px 25px 0px;
+		left: 10px;
+		
+	}
+	.ben-monogram img {
+		width: 100px;
+	}
+	.promobox-home {
+		width: 350px;
+		height: 70px;
+		border: 3px solid #333;
+		bottom: 120px;
+	}
+	.promobox-home img {
+		width: 140px;
+	}
+	.promobox-home .eb-slide-show-btn-prev{
+		left: 210px
+	}
+	.promobox-overlay h1 {
+		font-size: 15px;
+		padding-bottom: 5px;
+		padding-top: 0px;
+	}
+	.promobox-overlay p {
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.promobox-overlay a {
+		padding-left: 235px;
+	}
 	.page-uid-reserve a{
 		padding-right: 20px !important;
 		padding-left: 10px !important;
+	}
+	.eb-slide-show-btn-prev, .eb-slide-show-btn-next {
+		margin-top: -23px;
+		width: 13px;
+		height: 28px;
 	}
 	#top-navigation {
 		top: auto;
@@ -186,6 +226,10 @@
 		line-height: 25px !important;
 		font-size: 12px;
 	}
+	.amenities-list {
+	margin-left: 0px; 
+	margin-right: 0px;
+}
 }
 @media screen and (max-width:850px) {
 	.bottom-navigation-ul li br{
@@ -347,12 +391,13 @@
 		bottom: auto;
 		position: relative;
 	}
+	.leftnav { position: relative; }
+	
 	.offer-signup-wrapper,
 	.promo-box-wrapper-regular-page{
-		bottom: auto;
-		top: auto;
-		height: 110px;
 		position: relative;
+		top: 15px;
+		height: 110px;
 	}
 	
 	.offer-signup-form{
@@ -468,8 +513,9 @@
 		height: 31px;
 	}
 	.slideshow-thumbs {
-		top: 37%;
-		padding-top: 6px;
+		/*top: 37%;*/
+		top: 310px;
+		padding-top: 0px;
 	}
 	.contact-form input, .contact-form select {
 		width: 150px;	
@@ -481,6 +527,29 @@
 	.column-right  { 
 		padding: 0px 5px 10px 5px;
 		margin-left: 10px;
+	}
+	.page-content-left .leftnav-social-icons { 
+		padding-left: 0px;
+	}
+	/*The National- Open Table widget in sidebar */
+	#OT_searchWrapperAll  {
+		padding-right: 20px;
+	}
+	#OT_partySizeLbl, #OT_dateLbl, #OT_timeLbl { 
+		width: 80px;
+	}	
+	#OT_partySize , #OT_date, #OT_time { 
+		left: 90px;
+	}
+	#OT_Submit {
+		margin-left: 20px; 
+	}
+	#OT_logo { 
+		left: 60px;
+	}
+	#OT_submitWrap { 
+		left: 30px;
+	}
 }
 
 

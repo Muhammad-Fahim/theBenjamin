@@ -3375,13 +3375,16 @@ position: relative;
 	text-decoration: underline;
 	color: #999 !important;
 }
-.promobox-left {
+.promobox-home {
 	border: 5px solid #333; 
 	width: 500px; height: 95px; 
 	background-color: #333; 
 	position: absolute; 
 	right: 0px; 
 	bottom: 100px; z-index: 7;
+}
+.promobox-home img {
+	float: right;
 }
 ul.page-bullets {
 	margin-left: 20px; 
@@ -3443,16 +3446,21 @@ ul.page-bullets li {
 	width: 100%; 	
 }
 .amenity {
-	background: #ded3cb;	
-	width: 374px;
-	height: 182px;
-	padding: 10px;
-	margin: 20px 0px 20px 0px;
+	background: #f7f7f7;	
+	/*background: #fff;*/
+	width: 445px;
+	height: 160px;
+	margin: 30px 0px 30px 0px;
+	margin-left: auto; 
+	margin-right: auto;
+	webkit-box-shadow: 0px 5px 11px rgba(70, 70, 70, 0.2);
+	-moz-box-shadow: 0px 5px 11px rgba(70, 70, 70, 0.2);
+	box-shadow: 0px 5px 11px rgba(70, 70, 70, 0.2);
 }
 .amenities-list {
 	width: 880px; 
 	margin-left: auto; 
-	margin-right: auto;"	
+	margin-right: auto;
 }
 .leftArchives {
 	position: absolute;
@@ -3490,22 +3498,27 @@ div.amenities-list label, div.amenities-list select, div.amenities-list label, d
 
 .amenities-list h2 {
 	text-align: center !important;
+	padding: 10px 0px 0px 10px;
+}
+.amenity-text p {
+	padding: 20px 20px 0px 15px;
 }
 .amenity-text {
-	background: #fff;
-	padding: 10px;	
 	float: left;
-	width: 162px;
-	height: 162px;
-}
-.amenity img {
+	width: 280px;
+	height: 160px;
 	float: right;
 }
-
+.amenity img {
+	height: 160px;
+	width: 160x;
+	float: left;
+}
 p.learn-more  {
 	text-align: right;
 	position: relative;
-	top: 20px;	
+	top:30px;	
+	padding-right: 20px;
 }	
 p.press-pagination {
 	text-align: center;
@@ -3516,10 +3529,10 @@ p.press-pagination {
 	opacity: 0.8;
 	position: absolute;
 	top: 64px;
-	left: 30px;
-	width: 228px;
+	left: 17px;
+	width: 248px;
 	padding: 50px 0px 50px 0px;
-	z-index: 800;
+	z-index: 10;
 	text-align: center;
 }
 
